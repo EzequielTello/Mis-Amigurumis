@@ -1,9 +1,9 @@
 body {
   font-family: "Great Vibes", cursive;
-  background-color: #e0f7fa;
+  background-color: white;
 }
 header {
-  background-color: #e0f7fa !important; /* Fuerza el color celeste en el header */
+  background-color: white !important; /* Fuerza el color celeste en el header */
   color: #5f6368;
   padding: 20px;
 }
