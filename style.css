@@ -13,6 +13,13 @@ h1 {
   text-align: center;
   margin-bottom: 10px;
 }
+h3.category-title {
+  font-family: "Cinzel", serif;
+  font-size: 2.5em;
+  color: #d974ae;
+  text-align: center;
+  margin-bottom: 30px;
+}
 h5 {
   color: #c0a9f5;
   font-size: 3em;
@@ -28,7 +35,7 @@ p {
   bottom: 20px; /* Asegura que el texto esté hacia el fondo del contenedor */
   left: 50%; /* Centra el texto horizontalmente */
   transform: translateX(-50%); /* Ajusta el centrado */
-  background-color: transparent; /* Hace el fondo transparente */
+  background-color: white; /* Hace el fondo transparente */
   padding: 0; /* Elimina el padding para evitar espacio extra */
   border: none; /* Elimina cualquier borde */
   color: rgba(255, 255, 255, 0.8); /* Color del texto con 80% de opacidad */
