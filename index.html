@@ -23,11 +23,12 @@
   <body>
     <header class="text-center p-4 bg-light">
       <h1>Divertiseis</h1>
-      <h3>¡Amigurumis para todos!</h3>
+      <h2 class="category-title">¡Amigurumis para todos!</h2>
     </header>
 
     <!-- Carruseles por categoría -->
     <section class="container my-5">
+      <!-- INTENSAMENTE -->
       <h2 class="category-title">Intensamente</h2>
       <div
         id="carouselIntensamente"
@@ -83,20 +84,18 @@
           href="#carouselIntensamente"
           role="button"
           data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon"></span>
-        </a>
+          ><span class="carousel-control-prev-icon"></span
+        ></a>
         <a
           class="carousel-control-next"
           href="#carouselIntensamente"
           role="button"
           data-slide="next"
-        >
-          <span class="carousel-control-next-icon"></span>
-        </a>
+          ><span class="carousel-control-next-icon"></span
+        ></a>
       </div>
 
-      <!-- Repetís lo mismo para las otras categorías -->
+      <!-- NAVIDAD -->
       <h2 class="category-title mt-5">Navidad</h2>
       <div id="carouselNavidad" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -106,7 +105,7 @@
                 <img
                   src="img/papanoel.jpg"
                   class="d-block w-100"
-                  alt="Papa Noel"
+                  alt="Papá Noel"
                 />
               </div>
               <div class="col-md-4">
@@ -121,122 +120,106 @@
               </div>
             </div>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselNavidad"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselNavidad"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon"></span>
-          </a>
         </div>
-
-        <!-- Categoría: Animalitos -->
-        <h2 class="category-title mt-5">Animalitos</h2>
-        <div
-          id="carouselAnimalitos"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-4 col-12 mb-3">
-                  <img
-                    src="img/capybara.jpg"
-                    class="d-block w-100"
-                    alt="Capybara"
-                  />
-                </div>
-                <div class="col-md-4 col-12 mb-3">
-                  <img
-                    src="img/jirafa.jpg"
-                    class="d-block w-100"
-                    alt="jirafa"
-                  />
-                </div>
-                <div class="col-md-4 col-12 mb-3">
-                  <img
-                    src="img/animalitos.jpg"
-                    class="d-block w-100"
-                    alt="Animalitos"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselAnimalitos"
-            role="button"
-            data-slide="prev"
-            ><span class="carousel-control-prev-icon"></span
-          ></a>
-          <a
-            class="carousel-control-next"
-            href="#carouselAnimalitos"
-            role="button"
-            data-slide="next"
-            ><span class="carousel-control-next-icon"></span
-          ></a>
-        </div>
-
-        <!-- Categoría: Personajes -->
-        <h2 class="category-title mt-5">Personajes</h2>
-        <div
-          id="carouselPersonajes"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-4 col-12 mb-3">
-                  <img
-                    src="img/deadpoll.jpeg"
-                    class="d-block w-100"
-                    alt="deadpoll"
-                  />
-                </div>
-                <div class="col-md-4 col-12 mb-3">
-                  <img src="img/messi.jpg" class="d-block w-100" alt="Messi" />
-                </div>
-                <div class="col-md-4 col-12 mb-3">
-                  <img
-                    src="img/chimuelo.jpg"
-                    class="d-block w-100"
-                    alt="Chimuelo"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselPersonajes"
-            role="button"
-            data-slide="prev"
-            ><span class="carousel-control-prev-icon"></span
-          ></a>
-          <a
-            class="carousel-control-next"
-            href="#carouselPersonajes"
-            role="button"
-            data-slide="next"
-            ><span class="carousel-control-next-icon"></span
-          ></a>
-        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselNavidad"
+          role="button"
+          data-slide="prev"
+          ><span class="carousel-control-prev-icon"></span
+        ></a>
+        <a
+          class="carousel-control-next"
+          href="#carouselNavidad"
+          role="button"
+          data-slide="next"
+          ><span class="carousel-control-next-icon"></span
+        ></a>
       </div>
 
-      <!-- Agregá tus carrousels de "Animalitos" y "Personajes" igual que estos -->
+      <!-- ANIMALITOS -->
+      <h2 class="category-title mt-5">Animalitos</h2>
+      <div id="carouselAnimalitos" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4 col-12 mb-3">
+                <img
+                  src="img/capybara.jpg"
+                  class="d-block w-100"
+                  alt="Capybara"
+                />
+              </div>
+              <div class="col-md-4 col-12 mb-3">
+                <img src="img/jirafa.jpg" class="d-block w-100" alt="Jirafa" />
+              </div>
+              <div class="col-md-4 col-12 mb-3">
+                <img
+                  src="img/animalitos.jpg"
+                  class="d-block w-100"
+                  alt="Animalitos"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselAnimalitos"
+          role="button"
+          data-slide="prev"
+          ><span class="carousel-control-prev-icon"></span
+        ></a>
+        <a
+          class="carousel-control-next"
+          href="#carouselAnimalitos"
+          role="button"
+          data-slide="next"
+          ><span class="carousel-control-next-icon"></span
+        ></a>
+      </div>
+
+      <!-- PERSONAJES -->
+      <h2 class="category-title mt-5">Personajes</h2>
+      <div id="carouselPersonajes" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4 col-12 mb-3">
+                <img
+                  src="img/deadpoll.jpeg"
+                  class="d-block w-100"
+                  alt="Deadpool"
+                />
+              </div>
+              <div class="col-md-4 col-12 mb-3">
+                <img src="img/messi.jpg" class="d-block w-100" alt="Messi" />
+              </div>
+              <div class="col-md-4 col-12 mb-3">
+                <img
+                  src="img/chimuelo.jpg"
+                  class="d-block w-100"
+                  alt="Chimuelo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselPersonajes"
+          role="button"
+          data-slide="prev"
+          ><span class="carousel-control-prev-icon"></span
+        ></a>
+        <a
+          class="carousel-control-next"
+          href="#carouselPersonajes"
+          role="button"
+          data-slide="next"
+          ><span class="carousel-control-next-icon"></span
+        ></a>
+      </div>
     </section>
 
     <!-- Footer -->
