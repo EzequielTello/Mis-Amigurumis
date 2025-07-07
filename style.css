@@ -56,3 +56,27 @@ footer .btn {
   font-size: 1.2em;
   padding: 10px 20px;
 }
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h2.category-title {
+    font-size: 1.8em;
+  }
+
+  img {
+    max-height: 200px;
+  }
+
+  .carousel .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel .col-12 {
+    margin-bottom: 15px;
+  }
+}
